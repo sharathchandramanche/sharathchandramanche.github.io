@@ -147,28 +147,19 @@ footer{background-color:rgb(49, 110, 148)}
          
          
 #parallax{background-image: url("Bookdocphoto10.png");
-                   z-index:15;
-                   transform: translate3d(-50%, 432.451px, 0px);opacity: 1;
-                   min-height: 100vh;
-                   width: 100vw;
+                   height:650px;
+                   width: 100%;
                    
                    background-attachment: fixed;
                    background-position: center;
                    background-repeat: no-repeat;
-                   background-size: cover;
-                  
-                  
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  overflow: hidden;
-                  
-                  }
+                   background-size: cover;}
+
 .mainn h2, p { text-align: center;}
 
 
 .Wrapper{position: static;
-         padding-left: 45%;
+         padding-left: 20%;
          padding-right: 50%;
          max-width: 350px;
          width: 100%;}
