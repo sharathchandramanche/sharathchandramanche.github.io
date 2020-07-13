@@ -1,0 +1,284 @@
+
+             
+@media only screen and (max-width: 1024px){
+              body{margin: 0;}
+              #wrapper{width: auto;}
+              main{margin-left: 0;}
+              nav{float: none; width: auto;}
+              nav li{display: inline-block;padding: 0.5em;}
+              nav ul{text-align: center;}
+              nav a{border-style: none;
+                    background-image: none;}
+              h1, h2{font-size: 120%;}
+              p{font-size: 90%;}
+              }
+@media only screen and (max-width: 768px) {
+                     h1, h2{font-size: 100%;}
+                     p{font-size: 90%;}
+                     figure{display: none;}
+                     nav, nav ul, nav li{padding: 0;}
+                     nav li{display: block;}
+                     nav a{display: block;padding: 0.5em;
+                           border-bottom: 2px ridge #00005D;}
+                     img{display: none;}
+                     }
+               
+
+.nav a:link{color:white;}
+.nav a:visited{color: white;}
+.nav a:focus{color:palegreen;}
+.nav a:hover{color:blue;}
+.nav a:active{color:yellow;}
+
+.nav{ background-color: rgb(49, 110, 148);
+       position: fixed;
+       overflow: hidden;
+       list-style: none;
+       display: flex;
+       padding-top: 18px;
+       padding-bottom: 5px;
+       margin: 0;
+       width: 100%;
+       top: 0px;
+       text-align: center;}
+
+.nav a{ color:turquoise;
+          display: inline-block;
+          padding: 0px;
+          list-style: none;
+          text-align: center;
+          text-decoration:none ;
+          margin-left: auto;
+          margin-right: auto;}
+
+.nav a img{height: 40px;
+         width: 80px;
+         padding-right: 30px;
+         
+         }
+
+.class1{width: 100%;}
+.class2 h2 {text-align: center;}
+.class3{display: inline-block;}
+.class3 h2{padding-left: 162px;
+           text-align: center;}        
+.class3 a {margin-left: auto;
+             margin-right: auto;}
+
+.col-md-3 {
+         display: inline-block; 
+ }
+
+.col-md-3 h3{color:white;}
+.col-md-3 p{color:cornsilk;}
+.col-md-3 a{color:cornsilk;} 
+.col-md-3 a{text-decoration: none;}
+.col-md-3 a:link{color:white;}
+.col-md-3 a:visited{color: white;}
+.col-md-3 a:focus{color:palegreen;}
+.col-md-3 a:hover{color:blue;}
+.col-md-3 a:active{color:yellow;}
+
+.bimainpage {background-image: url(bookdocphoto16.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    
+            
+
+.mainpagesearch{padding-left: 35%;}
+.mainpagesearch form p label{display: block;}
+.mainpagesearch form{background-color:rgb(179, 204, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    padding: 10px;}
+
+footer{background-color:rgb(49, 110, 148)}
+
+.footer-bottom { padding: 10px;
+      background: rgb(49, 110, 148);
+      border-top: 2px solid black;
+      color: #fff;
+      font-size: 20px;
+       text-align: center;}
+
+.footer-bottom a {float: right;
+                  border: 2px solid white;}
+
+
+
+
+.contactheading{padding-left: 14%;}
+        
+.navvi { float: left;
+                  width: 180px;
+                  letter-spacing:0.1em;
+                font-weight: bold;}
+                
+                
+          
+.navvi ul { list-style-type: none; 
+                  margin: 0;
+                  padding: 0;}
+         
+         
+         
+.navvi a { text-decoration: none; 
+                 
+                 padding:20px;
+                 display: block;
+                 background-color:lightskyblue;
+                 border-bottom: 1px solid white;}
+                 
+.mainn{margin-left:140px;}
+         
+         
+.navvi ul li  a:link{color:blueviolet;}
+.navvi ul li a:visited{color:brown;}
+.navvi ul li a:focus{color: red;}
+.navvi ul li a:hover{color:blue;}
+.navvi ul li a:active{color:yellow;}
+.mainn a{display:block;}
+.mainn li{display: inline-block;
+               border:2px solid red;
+                 width:100px;
+               height:100px;}
+         
+         
+         
+#parallax{background-image: url("Bookdocphoto10.png");
+                   height:650px;
+                   width: 100%;
+                   
+                   background-attachment: fixed;
+                   background-position: center;
+                   background-repeat: no-repeat;
+                   background-size: cover;}
+.mainn h2, p { text-align: center;}
+
+
+.Wrapper{position: static;
+         padding-left: 45%;
+         padding-right: 50%;
+         max-width: 350px;
+         width: 100%;}
+
+.Wrapper h2{ 
+            margin-bottom: 20px;
+             text-transform: uppercase;
+             letter-spacing: 3px;}
+             
+
+.Wrapper .input_field{margin-bottom: 10px;}
+
+.Wrapper textarea{width: 44%;
+                 border: 1px solid #e0e0e0;
+                  padding: 10px;}
+.Wrapper textarea{height: 80px;
+                  resize: none;}
+
+.Wrapper .btn input[type="submit"]{border: 0;
+                margin-top: 15px;
+                padding: 10px;
+                width: 48%;
+                background: rgb(12, 93, 126);
+                color:white;
+                text-transform: uppercase;
+                 letter-spacing: 5px;
+                 font-weight: bold;
+                 border-radius: 25px;
+                 cursor: pointer;}
+
+.Wrapper #error_message{margin-bottom: 20px;
+                   
+                   padding: 0px;
+                    
+                   text-align: left;
+                    
+                    font-size: 14px;
+                    transition: all 0.5s ease;}
+                  
+
+.frequentlyaskedquestions{
+                        background-color:lightgreen;
+                        color: white;
+                        cursor: pointer;
+                        padding: 18px; 
+                        width: 100%;
+                        text-align: left;
+                        border: 1px solid white;
+                        transition: 0.4s;
+                        font: 20px lato, sans-serif;}
+                    
+            
+.faq1{ padding: 0 18px;
+                        background-color: white;
+                        display:none;
+                        overflow: hidden; }
+                   
+.faq1 p{ font: 16px lato, sans-serif;}
+                    
+.active, .frequentlyaskedquestions:hover{
+                        background-color: #527E6A; }
+                        
+                   
+.frequentlyaskedquestions:after{
+                        content: '\02795';
+                       
+                        font-size: 15px;
+                        float: right;
+                        margin-left: 5px;}
+                    
+.active:after{ content: '\2796';}
+                       
+                    
+
+
+
+.pavan  h1{text-align: center;
+                        color: black;
+                         font-weight: bold;
+                        background-color:lightskyblue;}
+
+.pavan h1 a {display: inline-block;}
+.pavan h3{display: inline-block;}
+.pavan p{ text-align: left;}
+.pavan h2{display:inline-block;}
+.pavan  h4{ text-align: center;}
+                        
+
+.formclass{padding-left: 38%; width: auto; background-color: lightsalmon;}
+                        
+.formclass form{ font-family: Arial, Helvetica, sans-serif;
+                             width: 350px;
+                             padding: 10px;}
+.formclass form label{float: left;
+                              clear: left;
+                              display: block;
+                              width: 100px;
+                               padding-right: 10px;}
+                        
+.formclass form   input, textarea {  display: block;}
+                        #submit {margin-left: 150px;}
+                        
+
+
+.searchh table, tr, td, th{border: 2px solid black;
+                            border-collapse: collapse;}
+
+.searchh    table {margin:auto;
+               width: 100%;
+           table-layout:fixed;
+       vertical-align: unset; ;}
+
+.searchh table tr th, td{text-align: center;
+                 width: 100%;
+               height: 100%;
+               padding: 40px;}
+
+
+.searchh table tr td a{text-decoration: none;
+                          border: 1px solid rgb(32, 78, 97);}
+
+.newss h1 {text-align: center;}
+               
